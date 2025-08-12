@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ліцей №15 – Учнівська Рада</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f1e8;
+            color: #333;
+        }
+        header {
+            background-color: #d8c3a5;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            height: 60px;
+            margin-right: 15px;
+        }
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        nav {
+            background-color: #eae7dc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5d4037;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            max-width: 1000px;
+            margin: 18px auto 0 auto;
+            padding: 0 20px;
+        }
+        .intro p {
+            background: #fffaf5;
+            border: 1px solid #efe6d8;
+            padding: 14px;
+            border-radius: 8px;
+            color: #4b3f2f;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        section {
+            padding: 20px;
+        }
+        .council {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .member {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .member img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            background-color: #ccc;
+        }
+        .events ul {
+            list-style: none;
+            padding: 0;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .events li {
+            background: #fff;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 18px auto;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #d8c3a5;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #c0a98e;
+        }
+        @media (max-width: 600px) {
+            header { flex-direction: column; align-items: flex-start; }
+            .member { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Логотип ліцею">
+    <h1>Ліцей №15 – Учнівська Рада</h1>
+</header>
+
+<!-- Вступні рядки: місія Ради -->
+<div class="intro">
+    <p><strong>Місія Учнівської Ради:</strong> Сприяти розвитку творчої, активної та відповідальної шкільної спільноти; захищати інтереси учнів та створювати комфортні умови для навчання й дозвілля.</p>
+</div>
+
+<nav>
+    <a href="#rada">Учнівська Рада</a>
+    <a href="#events">Події</a>
+    <a href="#contact">Зв’язатися з нами</a>
+</nav>
+
+<section id="rada">
+    <h2 style="text-align:center;">Учнівська Рада</h2>
+    <div class="council">
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Голова ради</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Заступник голови</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Секретар</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Відповідальний за медіа</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Організатор заходів</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Представник класів</h3>
+            <p>?</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/120/cccccc/808080?text=Фото" alt="?">
+            <h3>Керівник волонтерів</h3>
+            <p>?</p>
+        </div>
+    </div>
+</section>
+
+<section id="events" class="events">
+    <h2 style="text-align:center;">Події</h2>
+    <ul>
+        <li>?</li>
+        <li>?</li>
+        <li>?</li>
+        <li>?</li>
+        <li>?</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2 style="text-align:center;">Зв’язатися з нами</h2>
+    <form action="https://formspree.io/f/myzplajn" method="POST">
+        <input type="text" name="name" placeholder="Ваше ім’я" required>
+        <input type="email" name="_replyto" placeholder="Ваш Email" required>
+        <textarea name="message" rows="5" placeholder="Ваше повідомлення" required></textarea>
+        <button type="submit">Надіслати</button>
+    </form>
+</section>
+
+</body>
+</html>
